@@ -44,7 +44,6 @@ const fetchTrucks = async (q) => {
 			await keypress();
 		}
 		console.log(alphabetical[i].applicant, '\n', alphabetical[i].locationdesc, '\n');
-		// console.log(alphabetical[i]);
 		if(i===alphabetical.length-1) process.exit();
 	}
 }
